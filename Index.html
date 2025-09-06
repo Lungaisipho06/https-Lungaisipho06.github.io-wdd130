@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunga Isipho Mpho | WDD 130</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="wwr/">Rafting Website</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Lunga Isipho Mpho | WDD 130</h1>
+        <img src="images/profile.jpg" alt="Hello, my name is Lunga Isipho Mpho" width="200">
+        <p>Hello! My name is Lunga Isipho Mpho, and I am from Cape Town, South Africa.
+        I enjoy learning web development, exploring new technologies, and working on creative projects.
+        In my free time, I like coding, playing games, and spending time with my family.</p>
+    </main>
+
+    <footer>
+        <p>&copy;2025 🌴 Lunga Isipho Mpho 🌴 Cape Town, South Africa</p>
+    </footer>
+</body>
+</html>
