@@ -1,0 +1,40 @@
+/* Limit main width */
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Aside styling */
+aside {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Ensure aspect */
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* Profile image inside main */
+main img {
+  width: 150px;
+  height: auto;
+}
+
+/* Paragraph reset */
+p {
+  padding: 0;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 20px;
+  border-top: 2px solid #ccc;
+  text-align: center;
+  padding-top: 10px;
+}
