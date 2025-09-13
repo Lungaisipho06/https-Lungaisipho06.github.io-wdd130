@@ -1,40 +1,63 @@
-/* Limit main width */
+/* General page styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header navigation */
+header {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+/* Main section */
 main {
-  max-width: 800px;
-  margin: auto;
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 1rem;
 }
 
-/* Aside styling */
-aside {
-  width: 300px;
-  margin: 20px auto;
-  border: 1px solid #ccc;
-  padding: 15px;
-  background-color: #f5f5f5;
-  color: #333;
-}
-
-/* Ensure aspect */
-aside img {
-  width: 200px;
-  height: auto;
-}
-
-/* Profile image inside main */
 main img {
-  width: 150px;
-  height: auto;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
 }
 
-/* Paragraph reset */
 p {
-  padding: 0;
+    padding: 0; /* updated as required */
 }
 
-/* Footer styling */
+/* Aside section */
+aside {
+    width: 300px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    border-radius: 10px;
+}
+
+aside img {
+    width: 200px;
+    height: auto; /* keeps aspect ratio */
+    border-radius: 8px;
+}
+
+/* Footer */
 footer {
-  margin-top: 20px;
-  border-top: 2px solid #ccc;
-  text-align: center;
-  padding-top: 10px;
+    margin-top: 1.5rem;
+    border-top: 2px solid #333;
+    text-align: center;
+    padding: 1rem;
+    background-color: #f2f2f2;
 }
